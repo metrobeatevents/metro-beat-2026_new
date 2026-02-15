@@ -1,0 +1,400 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Hero from '../components/Hero.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout 
+  title="Metro Beat Events - Premium DJ & Event Services | DMV Area (Luxury)"
+  description="Professional mobile DJ, MC, photography, and uplighting service for weddings, corporate events, and private parties in the DMV area."
+  version="b"
+>
+  <Header />
+  <Hero />
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title" data-en="Our Services" data-es="Nuestros Servicios">Our Services</h2>
+        <p class="section-subtitle" data-en="Professional entertainment solutions for every occasion" data-es="Soluciones de entretenimiento profesional para cada ocasión">
+          Professional entertainment solutions for every occasion
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-music"></i>
+          </div>
+          <h3 class="service-title" data-en="DJ & MC Services" data-es="Servicios de DJ y MC">DJ & MC Services</h3>
+          <p class="service-description" data-en="Professional DJs and MCs who read the crowd and keep your event energized" data-es="DJs y MCs profesionales que leen a la multitud y mantienen su evento energizado">
+            Professional DJs and MCs who read the crowd and keep your event energized
+          </p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-camera"></i>
+          </div>
+          <h3 class="service-title" data-en="Photography" data-es="Fotografía">Photography</h3>
+          <p class="service-description" data-en="Capture every special moment with our professional photography services" data-es="Capture cada momento especial con nuestros servicios de fotografía profesional">
+            Capture every special moment with our professional photography services
+          </p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-lightbulb"></i>
+          </div>
+          <h3 class="service-title" data-en="Uplighting" data-es="Iluminación">Uplighting</h3>
+          <p class="service-description" data-en="Transform your venue with stunning LED uplighting and ambient lighting effects" data-es="Transforme su lugar con impresionante iluminación LED y efectos de luz ambiental">
+            Transform your venue with stunning LED uplighting and ambient lighting effects
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Packages Section -->
+  <section id="packages" class="packages">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title" data-en="Event Packages" data-es="Paquetes de Eventos">Event Packages</h2>
+        <p class="section-subtitle" data-en="Choose the perfect package for your celebration" data-es="Elija el paquete perfecto para su celebración">
+          Choose the perfect package for your celebration
+        </p>
+      </div>
+
+      <div class="packages-grid">
+        <!-- Essential Package -->
+        <div class="package-card">
+          <div class="package-header">
+            <h3 class="package-name" data-en="Essential" data-es="Esencial">Essential</h3>
+            <p class="package-tagline" data-en="Perfect for intimate gatherings" data-es="Perfecto para reuniones íntimas">
+              Perfect for intimate gatherings
+            </p>
+          </div>
+          <ul class="package-features">
+            <li data-en="Professional DJ (4 hours)" data-es="DJ Profesional (4 horas)">
+              <i class="fas fa-check"></i> Professional DJ (4 hours)
+            </li>
+            <li data-en="Sound System Setup" data-es="Configuración de Sistema de Sonido">
+              <i class="fas fa-check"></i> Sound System Setup
+            </li>
+            <li data-en="Music Consultation" data-es="Consulta Musical">
+              <i class="fas fa-check"></i> Music Consultation
+            </li>
+            <li data-en="Basic Lighting" data-es="Iluminación Básica">
+              <i class="fas fa-check"></i> Basic Lighting
+            </li>
+          </ul>
+          <a href="#contact" class="btn btn-outline" data-en="Get Quote" data-es="Solicitar Cotización">Get Quote</a>
+        </div>
+
+        <!-- Signature Package (Featured) -->
+        <div class="package-card package-featured">
+          <div class="package-badge" data-en="Most Popular" data-es="Más Popular">Most Popular</div>
+          <div class="package-header">
+            <h3 class="package-name" data-en="Signature" data-es="Firma">Signature</h3>
+            <p class="package-tagline" data-en="Complete entertainment experience" data-es="Experiencia de entretenimiento completa">
+              Complete entertainment experience
+            </p>
+          </div>
+          <ul class="package-features">
+            <li data-en="Professional DJ & MC (6 hours)" data-es="DJ y MC Profesional (6 horas)">
+              <i class="fas fa-check"></i> Professional DJ & MC (6 hours)
+            </li>
+            <li data-en="Premium Sound System" data-es="Sistema de Sonido Premium">
+              <i class="fas fa-check"></i> Premium Sound System
+            </li>
+            <li data-en="LED Uplighting (12 lights)" data-es="Iluminación LED (12 luces)">
+              <i class="fas fa-check"></i> LED Uplighting (12 lights)
+            </li>
+            <li data-en="Wireless Microphones" data-es="Micrófonos Inalámbricos">
+              <i class="fas fa-check"></i> Wireless Microphones
+            </li>
+            <li data-en="Custom Music Curation" data-es="Curación Musical Personalizada">
+              <i class="fas fa-check"></i> Custom Music Curation
+            </li>
+          </ul>
+          <a href="#contact" class="btn btn-primary" data-en="Get Quote" data-es="Solicitar Cotización">Get Quote</a>
+        </div>
+
+        <!-- Elite Package -->
+        <div class="package-card">
+          <div class="package-header">
+            <h3 class="package-name" data-en="Elite" data-es="Elite">Elite</h3>
+            <p class="package-tagline" data-en="The ultimate premium experience" data-es="La experiencia premium definitiva">
+              The ultimate premium experience
+            </p>
+          </div>
+          <ul class="package-features">
+            <li data-en="DJ, MC & Photography (8 hours)" data-es="DJ, MC y Fotografía (8 horas)">
+              <i class="fas fa-check"></i> DJ, MC & Photography (8 hours)
+            </li>
+            <li data-en="Premium Sound & Lighting" data-es="Sonido e Iluminación Premium">
+              <i class="fas fa-check"></i> Premium Sound & Lighting
+            </li>
+            <li data-en="Full Venue Uplighting" data-es="Iluminación Completa del Lugar">
+              <i class="fas fa-check"></i> Full Venue Uplighting
+            </li>
+            <li data-en="Dance Floor Lighting Effects" data-es="Efectos de Iluminación en Pista">
+              <i class="fas fa-check"></i> Dance Floor Lighting Effects
+            </li>
+            <li data-en="Ceremony Sound System" data-es="Sistema de Sonido para Ceremonia">
+              <i class="fas fa-check"></i> Ceremony Sound System
+            </li>
+            <li data-en="Unlimited Planning Sessions" data-es="Sesiones de Planificación Ilimitadas">
+              <i class="fas fa-check"></i> Unlimited Planning Sessions
+            </li>
+          </ul>
+          <a href="#contact" class="btn btn-outline" data-en="Get Quote" data-es="Solicitar Cotización">Get Quote</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Wedding Experience Section -->
+  <section id="weddings" class="weddings">
+    <div class="container">
+      <div class="weddings-content">
+        <div class="weddings-text">
+          <h2 class="weddings-title" data-en="Your Perfect Wedding Day" data-es="Su Día de Boda Perfecto">
+            Your Perfect Wedding Day
+          </h2>
+          <p class="weddings-description" data-en="From your ceremony to the last dance, we'll create the perfect soundtrack for your love story. Our experienced wedding specialists work closely with you to ensure every moment is perfect." data-es="Desde su ceremonia hasta el último baile, crearemos la banda sonora perfecta para su historia de amor. Nuestros especialistas experimentados en bodas trabajan estrechamente con usted para garantizar que cada momento sea perfecto.">
+            From your ceremony to the last dance, we'll create the perfect soundtrack for your love story. Our experienced wedding specialists work closely with you to ensure every moment is perfect.
+          </p>
+          <ul class="weddings-features">
+            <li data-en="Ceremony & Reception Coverage" data-es="Cobertura de Ceremonia y Recepción">
+              <i class="fas fa-check-circle"></i> Ceremony & Reception Coverage
+            </li>
+            <li data-en="Personalized Music Selection" data-es="Selección Musical Personalizada">
+              <i class="fas fa-check-circle"></i> Personalized Music Selection
+            </li>
+            <li data-en="Professional MC Services" data-es="Servicios Profesionales de MC">
+              <i class="fas fa-check-circle"></i> Professional MC Services
+            </li>
+            <li data-en="Planning & Coordination" data-es="Planificación y Coordinación">
+              <i class="fas fa-check-circle"></i> Planning & Coordination
+            </li>
+          </ul>
+          <a href="#contact" class="btn btn-primary" data-en="Plan Your Wedding" data-es="Planifique Su Boda">Plan Your Wedding</a>
+        </div>
+        <div class="weddings-image">
+          <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=600&h=800&fit=crop" alt="Wedding celebration" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="gallery">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title" data-en="Event Gallery" data-es="Galería de Eventos">Event Gallery</h2>
+        <p class="section-subtitle" data-en="Moments we've helped create" data-es="Momentos que hemos ayudado a crear">
+          Moments we've helped create
+        </p>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1519167758481-83f29da8c059?w=600&h=400&fit=crop" alt="DJ performance at wedding" loading="lazy">
+          <div class="gallery-overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1511578314322-379afb476865?w=600&h=400&fit=crop" alt="Dance floor with lighting" loading="lazy">
+          <div class="gallery-overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=600&h=400&fit=crop" alt="Live music performance" loading="lazy">
+          <div class="gallery-overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=600&h=400&fit=crop" alt="Corporate event" loading="lazy">
+          <div class="gallery-overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=600&h=400&fit=crop" alt="Wedding reception" loading="lazy">
+          <div class="gallery-overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1467810563316-b5476525c0f9?w=600&h=400&fit=crop" alt="Party lighting" loading="lazy">
+          <div class="gallery-overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=600&h=400&fit=crop" alt="Crowd at event" loading="lazy">
+          <div class="gallery-overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?w=600&h=400&fit=crop" alt="DJ equipment" loading="lazy">
+          <div class="gallery-overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title" data-en="What Clients Say" data-es="Lo Que Dicen Los Clientes">What Clients Say</h2>
+        <p class="section-subtitle" data-en="Real experiences from real events" data-es="Experiencias reales de eventos reales">
+          Real experiences from real events
+        </p>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-text" data-en="Metro Beat Events made our wedding absolutely perfect! The DJ read the crowd perfectly and kept everyone dancing all night." data-es="¡Metro Beat Events hizo que nuestra boda fuera absolutamente perfecta! El DJ leyó a la multitud perfectamente y mantuvo a todos bailando toda la noche.">
+            Metro Beat Events made our wedding absolutely perfect! The DJ read the crowd perfectly and kept everyone dancing all night.
+          </p>
+          <div class="testimonial-author">
+            <p class="author-name">Sarah & Mike Johnson</p>
+            <p class="author-event" data-en="Wedding Reception" data-es="Recepción de Boda">Wedding Reception</p>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-text" data-en="Professional, punctual, and incredibly talented. They transformed our corporate event into an unforgettable experience." data-es="Profesionales, puntuales e increíblemente talentosos. Transformaron nuestro evento corporativo en una experiencia inolvidable.">
+            Professional, punctual, and incredibly talented. They transformed our corporate event into an unforgettable experience.
+          </p>
+          <div class="testimonial-author">
+            <p class="author-name">David Martinez</p>
+            <p class="author-event" data-en="Corporate Event" data-es="Evento Corporativo">Corporate Event</p>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-text" data-en="The uplighting completely transformed our venue! Combined with their DJ services, our party was the talk of the town." data-es="¡La iluminación transformó completamente nuestro lugar! Combinado con sus servicios de DJ, nuestra fiesta fue la comidilla del pueblo.">
+            The uplighting completely transformed our venue! Combined with their DJ services, our party was the talk of the town.
+          </p>
+          <div class="testimonial-author">
+            <p class="author-name">Jennifer Lee</p>
+            <p class="author-event" data-en="Birthday Celebration" data-es="Celebración de Cumpleaños">Birthday Celebration</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title" data-en="Get In Touch" data-es="Contáctenos">Get In Touch</h2>
+        <p class="section-subtitle" data-en="Ready to make your event unforgettable?" data-es="¿Listo para hacer su evento inolvidable?">
+          Ready to make your event unforgettable?
+        </p>
+      </div>
+
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="contact-details">
+              <h3 data-en="Phone" data-es="Teléfono">Phone</h3>
+              <p>+1 (202) 555-0100</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="contact-details">
+              <h3 data-en="Email" data-es="Correo">Email</h3>
+              <p>info@metrobeatevents.com</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="contact-details">
+              <h3 data-en="Service Area" data-es="Área de Servicio">Service Area</h3>
+              <p data-en="DMV Area (DC, Maryland, Virginia)" data-es="Área DMV (DC, Maryland, Virginia)">
+                DMV Area (DC, Maryland, Virginia)
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <input type="text" id="name" name="name" required 
+                     data-en="Your Name" data-es="Su Nombre" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" name="email" required 
+                     data-en="Your Email" data-es="Su Correo" placeholder="Your Email">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <input type="tel" id="phone" name="phone" 
+                     data-en="Phone Number" data-es="Número de Teléfono" placeholder="Phone Number">
+            </div>
+            <div class="form-group">
+              <input type="date" id="eventDate" name="eventDate" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <textarea id="message" name="message" rows="5" required 
+                      data-en="Tell us about your event..." data-es="Cuéntenos sobre su evento..." 
+                      placeholder="Tell us about your event..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" data-en="Send Message" data-es="Enviar Mensaje">
+            Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <Footer />
+</Layout>

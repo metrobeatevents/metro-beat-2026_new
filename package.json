@@ -1,0 +1,25 @@
+{
+  "name": "metro-beat-events",
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^4.0.0"
+  },
+  "description": "Metro Beat Events - Premium DJ & Event Services Website (Bilingual EN/ES)",
+  "keywords": [
+    "astro",
+    "dj-services",
+    "event-services",
+    "bilingual",
+    "responsive"
+  ],
+  "author": "Metro Beat Events",
+  "license": "MIT"
+}

@@ -1,0 +1,56 @@
+---
+export interface Props {
+  title: string;
+  description: string;
+  version?: 'a' | 'b' | 'c';
+}
+
+const { title, description, version = 'a' } = Astro.props;
+
+// Determine which CSS file to use based on version
+const styleFile = version === 'a' ? 'style.css' : 
+                  version === 'b' ? 'style-version-b.css' : 
+                  'style-version-c.css';
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content={description}>
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content={title}>
+    <meta property="og:description" content={description}>
+    <meta property="og:type" content="website">
+    
+    <title>{title}</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    
+    <!-- Version-specific CSS -->
+    <link rel="stylesheet" href={`/css/${styleFile}`}>
+    
+    <!-- Schema.org Markup -->
+    <script type="application/ld+json" set:html={JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Metro Beat Events",
+        "description": "Premium DJ, MC, Photography & Uplighting Services in the DMV Area",
+        "areaServed": "DMV Area",
+        "telephone": "+1-202-555-0100",
+        "email": "info@metrobeatevents.com"
+    })} />
+</head>
+<body>
+    <slot />
+    
+    <!-- JavaScript -->
+    <script src="/js/main.js"></script>
+</body>
+</html>
