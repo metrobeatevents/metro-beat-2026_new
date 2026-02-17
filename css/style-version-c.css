@@ -1711,11 +1711,13 @@ body {
     width: 100%;
 }
 
-.quote-form label,
 .quote-form .form-group label,
-.contact-form label,
 .contact-form .form-group label {
     display: none !important;
+}
+
+.checkbox-group label {
+    display: flex !important;
 }
 
 #eventDate,
