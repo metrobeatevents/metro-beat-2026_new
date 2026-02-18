@@ -308,6 +308,7 @@ body {
 /* Dropdown Menu */
 .nav-dropdown {
     position: relative;
+    overflow: visible;
 }
 
 .dropdown-menu {
@@ -317,14 +318,15 @@ body {
     background-color: var(--card-background);
     border: 1px solid var(--border-color);
     border-radius: var(--radius-md);
-    min-width: 180px;
+    min-width: 200px;
     opacity: 0;
     visibility: hidden;
     transform: translateY(-10px);
     transition: all 0.3s ease;
-    z-index: 1000;
-    margin-top: 10px;
+    z-index: 1001;
+    margin-top: 8px;
     box-shadow: var(--shadow-md);
+    list-style: none;
 }
 
 .nav-dropdown:hover .dropdown-menu {
