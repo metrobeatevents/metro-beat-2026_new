@@ -37,10 +37,23 @@ function setLanguage(lang) {
     elements.forEach(element => {
         const text = element.getAttribute(`data-${lang}`);
         if (text) {
-            // Check if element is a button or input
-            if (element.tagName === 'BUTTON' || element.tagName === 'INPUT') {
+            // Preserve child elements (like icons) by only updating text nodes
+            if (element.tagName === 'INPUT') {
+                element.placeholder = text;
+            } else if (element.children.length > 0) {
+                // Has child elements - preserve them
+                const childElements = Array.from(element.children);
                 element.textContent = text;
+                // Re-append child elements
+                childElements.forEach(child => {
+                    if (child.tagName === 'I' || child.classList.contains('fas') || child.classList.contains('far')) {
+                        element.prepend(child);
+                    } else {
+                        element.appendChild(child);
+                    }
+                });
             } else {
+                // No child elements - safe to replace
                 element.textContent = text;
             }
         }

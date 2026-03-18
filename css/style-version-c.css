@@ -406,7 +406,7 @@ body {
    ========================================= */
 .hero {
     position: relative;
-    min-height: 100vh;
+    min-height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -414,6 +414,7 @@ body {
                 url('https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=1920&h=1080&fit=crop') center/cover;
     background-attachment: fixed;
     padding-top: 80px;
+    padding-bottom: 40px;
     overflow: hidden;
 }
 

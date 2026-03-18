@@ -6,45 +6,37 @@
     <nav class="nav">
         <div class="container nav-container">
             <!-- Logo -->
-            <div class="nav-logo">
-                <img src="/images/logo.png" alt="Metro Beat Events Logo" class="logo-img">
-                <span class="logo-text" data-en="Metro Beat Events" data-es="Metro Beat Events">Metro Beat Events</span>
+            <div class="logo">
+                <a href="/"><img src="/images/Metro_Beat_Main_Logo_Dark_BG.png" alt="Metro Beat Events Logo" class="logo-image" width="266" height="160"></a>
             </div>
 
             <!-- Desktop Navigation -->
             <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="#home" class="nav-link" data-en="Home" data-es="Inicio">Home</a>
+                <li><a href="index.html" data-en="Home" data-es="Inicio">Home</a></li>
+                <li class="nav-dropdown">
+                    <a href="services.html" data-en="Services" data-es="Servicios">Services</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="weddings.html" data-en="Weddings" data-es="Bodas">Weddings</a></li>
+                        <li><a href="quinceanera.html" data-en="Quinceañera" data-es="Quinceañera">Quinceañera</a></li>
+                    </ul>
                 </li>
-                <li class="nav-item">
-                    <a href="#services" class="nav-link" data-en="Services" data-es="Servicios">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#packages" class="nav-link" data-en="Packages" data-es="Paquetes">Packages</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#weddings" class="nav-link" data-en="Weddings" data-es="Bodas">Weddings</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#gallery" class="nav-link" data-en="Gallery" data-es="Galería">Gallery</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#contact" class="nav-link" data-en="Contact" data-es="Contacto">Contact</a>
-                </li>
+                <li><a href="packages.html" data-en="Packages" data-es="Paquetes">Packages</a></li>
+                <li><a href="gallery.html" data-en="Gallery" data-es="Galería">Gallery</a></li>
+                <li><a href="about.html" data-en="About" data-es="Acerca de">About</a></li>
+                <li><a href="contact.html" data-en="Contact" data-es="Contacto">Contact</a></li>
             </ul>
-
-            <!-- Language Toggle & Mobile Menu -->
-            <div class="nav-actions">
-                <button class="language-toggle" id="languageToggle" aria-label="Toggle Language">
-                    <span class="lang-option active" data-lang="en">EN</span>
-                    <span class="lang-separator">/</span>
-                    <span class="lang-option" data-lang="es">ES</span>
-                </button>
-                
-                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle Menu">
-                    <i class="fas fa-bars"></i>
-                </button>
+            
+            <!-- Language Toggle -->
+            <div class="language-toggle">
+                <button class="lang-btn active" data-lang="en">EN</button>
+                <span class="lang-separator">/</span>
+                <button class="lang-btn" data-lang="es">ES</button>
             </div>
+            
+            <!-- Mobile Menu Toggle -->
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
         </div>
     </nav>
 </header>

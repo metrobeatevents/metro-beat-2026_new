@@ -16,14 +16,35 @@ const styleFile = version === 'a' ? 'style.css' :
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-N5SJ89BR');</script>
+    <!-- End Google Tag Manager -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/images/Metro_Beat_Favicon_Nightclub.png">
     <meta name="description" content={description}>
+    <meta name="keywords" content="wedding DJ DMV, wedding DJ Northern Virginia, wedding DJ Woodbridge VA, event photography DMV, uplighting wedding">
+    <meta name="author" content="Metro Beat Events">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://metrobeatevents.com/">
     
     <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://metrobeatevents.com/">
     <meta property="og:title" content={title}>
     <meta property="og:description" content={description}>
-    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://metrobeatevents.com/images/Metro_Beat_Main_Logo_Dark_Mode.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://metrobeatevents.com/">
+    <meta property="twitter:title" content={title}>
+    <meta property="twitter:description" content={description}>
+    <meta property="twitter:image" content="https://metrobeatevents.com/images/Metro_Beat_Main_Logo_Dark_Mode.png">
     
     <title>{title}</title>
     
@@ -41,16 +62,53 @@ const styleFile = version === 'a' ? 'style.css' :
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "name": "Metro Beat Events",
-        "description": "Premium DJ, MC, Photography & Uplighting Services in the DMV Area",
-        "areaServed": "DMV Area",
-        "telephone": "+1-202-555-0100",
-        "email": "info@metrobeatevents.com"
+        "image": "https://metrobeatevents.com/images/Metro_Beat_Main_Logo_Dark_Mode.png",
+        "@id": "https://metrobeatevents.com",
+        "url": "https://metrobeatevents.com",
+        "telephone": "703-646-0293",
+        "email": "info@metrobeatevents.com",
+        "priceRange": "$$",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "123 Main Street",
+            "addressLocality": "Woodbridge",
+            "addressRegion": "VA",
+            "postalCode": "22191",
+            "addressCountry": "US"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 38.6581722,
+            "longitude": -77.2497049
+        },
+        "areaServed": [
+            {"@type": "City", "name": "Woodbridge, VA"},
+            {"@type": "City", "name": "Washington, DC"},
+            {"@type": "City", "name": "Arlington, VA"},
+            {"@type": "City", "name": "Alexandria, VA"},
+            {"@type": "City", "name": "Fairfax, VA"}
+        ],
+        "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+            "opens": "09:00",
+            "closes": "22:00"
+        },
+        "sameAs": [
+            "https://www.facebook.com/metrobeatevents",
+            "https://www.instagram.com/metrobeatevents",
+            "https://twitter.com/metrobeatevents"
+        ]
     })} />
 </head>
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N5SJ89BR"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <slot />
     
     <!-- JavaScript -->
-    <script src="/js/main.js"></script>
+    <script is:inline src="/js/main.js"></script>
 </body>
 </html>
