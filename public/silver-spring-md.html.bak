@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/Metro_Beat_Favicon_Nightclub.png">
+    <meta name="description" content="Wedding DJ Silver Spring Md VA | Metro Beat Events | Professional DJ, photography & lighting services. 500+ events, 5-star rated, .">
+    <meta name="keywords" content="wedding DJ Silver Spring Md VA, DJ Silver Spring Md Virginia, event DJ Silver Spring Md, wedding entertainment Silver Spring Md">
+    <meta name="author" content="Metro Beat Events">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://metrobeatevents.com/silver-spring-md.html">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://metrobeatevents.com/silver-spring-md.html">
+    <meta property="og:title" content="Wedding DJ Silver Spring Md VA | Metro Beat Events | Professional Services">
+    <meta property="og:description" content="Silver Spring Md's premier wedding DJ service. Professional entertainment, expert music curation, and stunning lighting for Silver Spring Md VA weddings. Book now!">
+    <meta property="og:image" content="https://metrobeatevents.com/images/Metro_Beat_Main_Logo_Dark_Mode.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://metrobeatevents.com/silver-spring-md.html">
+    <meta property="twitter:title" content="Wedding DJ Silver Spring Md VA">
+    <meta property="twitter:description" content="Professional wedding DJ services in Silver Spring Md VA.">
+    <meta property="twitter:image" content="https://metrobeatevents.com/images/Metro_Beat_Main_Logo_Dark_Mode.png">
+    
+    <title>Wedding DJ Silver Spring Md VA | Metro Beat Events | Professional Services</title>
+    
+    <!-- Google Fonts with font-display=swap for better performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome - async loading -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css"></noscript>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style-version-c.css">
+    
+    <!-- Schema.org LocalBusiness Markup for Silver Spring Md -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Metro Beat Events - Silver Spring Md VA",
+      "image": "https://metrobeatevents.com/images/Metro_Beat_Main_Logo_Dark_Mode.png",
+      "@id": "https://metrobeatevents.com/silver-spring-md.html",
+      "url": "https://metrobeatevents.com/silver-spring-md.html",
+      "telephone": "703-646-0293",
+      "email": "metrobeatevents@gmail.com",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Main Street",
+        "addressLocality": "Silver Spring Md",
+        "addressRegion": "VA",
+        "postalCode": "22191",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 38.6581722,
+        "longitude": -77.2497049
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Silver Spring Md, VA"
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        "opens": "09:00",
+        "closes": "22:00"
+      },
+      "sameAs": [
+        "https://www.facebook.com/metrobeatevents",
+        "https://www.instagram.com/metrobeatevents",
+        "https://twitter.com/metrobeatevents"
+      ]
+    }
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="container nav-container">
+                <div class="logo">
+                    <a href="index.html"><img src="images/Metro_Beat_Main_Logo_Dark_BG.png" alt="Metro Beat Events Logo" class="logo-image" width="266" height="160"></a>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="packages.html">Packages</a></li>
+                    <li><a href="weddings.html">Weddings</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                
+                <!-- Language Toggle -->
+                <div class="language-toggle">
+                    <button class="lang-btn active" data-lang="en">EN</button>
+                    <span class="lang-separator">/</span>
+                    <button class="lang-btn" data-lang="es">ES</button>
+                </div>
+                
+                <!-- Mobile Menu Toggle -->
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-modern">
+            <div class="container">
+                <div class="hero-modern-content">
+                    <div class="hero-modern-badge">🎵 Professional Entertainment</div>
+                    <h1 data-en="DJ Services in Silver Spring" data-es="Servicios de DJ en Silver Spring">DJ Services in Silver Spring</h1>
+                    <p class="hero-modern-subtitle">Professional DJ, Photography & Lighting for Your Special Day</p>
+                    <div class="hero-modern-cta">
+                        <a href="contact.html" class="btn btn-primary">📞 Book Your DJ</a>
+                        <a href="tel:703-646-0293" class="btn btn-secondary">Call Now: 703-646-0293</a>
+                    </div>
+                    <div class="hero-modern-stats">
+                        <div class="hero-stat">
+                            <div class="hero-stat-number">5★</div>
+                            <div class="hero-stat-label">Rated</div>
+                        </div>
+                        <div class="hero-stat">
+                            <div class="hero-stat-number">100%</div>
+                            <div class="hero-stat-label">Satisfied</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services-section">
+            <div class="container">
+                <h2 data-en="Professional DJ Services for Silver Spring Md Weddings & Events" data-es="Servicios Profesionales de DJ para Bodas y Eventos en Silver Spring Md">Professional DJ Services for Silver Spring Md Weddings & Events</h2>
+                <p style="padding: 20px 0; font-size: 18px; line-height: 1.8;" data-en="Metro Beat Events provides comprehensive wedding and event entertainment services throughout Silver Spring Md, VA and the surrounding areas." data-es="Metro Beat Events ofrece servicios completos de entretenimiento para bodas y eventos en Silver Spring Md, VA y las áreas circundantes.">Metro Beat Events provides comprehensive wedding and event entertainment services throughout Silver Spring Md, VA and the surrounding areas.</p>
+                
+                <div class="services-grid">
+                    <div class="service-card">
+                        <h3 data-en="Professional DJ Services" data-es="Servicios Profesionales de DJ">Professional DJ Services</h3>
+                        <p data-en="Professional DJ services with expert music curation, seamless transitions, and crowd engagement for your Silver Spring Md wedding." data-es="Servicios profesionales de DJ con curación experta de música, transiciones perfectas y participación de la multitud para su boda en Silver Spring Md.">Professional DJ services with expert music curation, seamless transitions, and crowd engagement for your Silver Spring Md wedding.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3 data-en="Event Photography" data-es="Fotografía de Eventos">Event Photography</h3>
+                        <p data-en="Capture your special moments with professional photography services in Silver Spring Md, VA." data-es="Capture sus momentos especiales con servicios profesionales de fotografía en Silver Spring Md, VA.">Capture your special moments with professional photography services in Silver Spring Md, VA.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3 data-en="Uplighting & Ambiance" data-es="Iluminación y Ambiente">Uplighting & Ambiance</h3>
+                        <p data-en="Transform your Silver Spring Md venue with stunning uplighting and ambient lighting design." data-es="Transforme su lugar en Silver Spring Md con impresionante iluminación y diseño de iluminación ambiental.">Transform your Silver Spring Md venue with stunning uplighting and ambient lighting design.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us Section -->
+        <section class="why-choose-us" style="padding: 80px 0; background: linear-gradient(135deg, rgba(255, 27, 109, 0.05), rgba(0, 212, 255, 0.05));">
+            <div class="container">
+                <h2 style="text-align: center; margin-bottom: 60px;" data-en="Why Choose Metro Beat Events for Your Silver Spring Md Wedding?" data-es="¿Por Qué Elegir Metro Beat Events para Su Boda en Silver Spring Md?">Why Choose Metro Beat Events for Your Silver Spring Md Wedding?</h2>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px;">
+                    <div style="padding: 30px; background: white; border-radius: 10px; box-shadow: 0 5px 20px rgba(0,0,0,0.08); border-left: 4px solid #00D4FF;">
+                        <div style="font-size: 32px; font-weight: 700; color: #00D4FF; margin-bottom: 10px;">⭐⭐⭐⭐⭐</div>
+                        <h3 style="margin: 0 0 10px 0; font-size: 18px;" data-en="5-Star Rated" data-es="Calificado 5 Estrellas">5-Star Rated</h3>
+                        <p style="margin: 0; color: #666;" data-en="Consistently praised for professionalism and service quality" data-es="Constantemente elogiado por profesionalismo y calidad de servicio">Consistently praised for professionalism and service quality</p>
+                    </div>
+<div style="padding: 30px; background: white; border-radius: 10px; box-shadow: 0 5px 20px rgba(0,0,0,0.08); border-left: 4px solid #00D4FF;">
+                        <div style="font-size: 32px; font-weight: 700; color: #00D4FF; margin-bottom: 10px;">🎵</div>
+                        <h3 style="margin: 0 0 10px 0; font-size: 18px;" data-en="Customized Packages" data-es="Paquetes Personalizados">Customized Packages</h3>
+                        <p style="margin: 0; color: #666;" data-en="Flexible entertainment options tailored to your vision" data-es="Opciones de entretenimiento flexibles adaptadas a su visión">Flexible entertainment options tailored to your vision</p>
+                    </div>
+                    <div style="padding: 30px; background: white; border-radius: 10px; box-shadow: 0 5px 20px rgba(0,0,0,0.08); border-left: 4px solid #FF1B6D;">
+                        <div style="font-size: 32px; font-weight: 700; color: #FF1B6D; margin-bottom: 10px;">⚡</div>
+                        <h3 style="margin: 0 0 10px 0; font-size: 18px;" data-en="Backup Equipment" data-es="Equipo de Respaldo">Backup Equipment</h3>
+                        <p style="margin: 0; color: #666;" data-en="Redundant systems ensure your event never stops" data-es="Sistemas redundantes aseguran que su evento nunca se detenga">Redundant systems ensure your event never stops</p>
+                    </div>
+                    <div style="padding: 30px; background: white; border-radius: 10px; box-shadow: 0 5px 20px rgba(0,0,0,0.08); border-left: 4px solid #00D4FF;">
+                        <div style="font-size: 32px; font-weight: 700; color: #00D4FF; margin-bottom: 10px;">📍</div>
+                        <h3 style="margin: 0 0 10px 0; font-size: 18px;" data-en="Local Expertise" data-es="Experiencia Local">Local Expertise</h3>
+                        <p style="margin: 0; color: #666;" data-en="Deep knowledge of Silver Spring Md venues and logistics" data-es="Conocimiento profundo de lugares y logística de Silver Spring Md">Deep knowledge of Silver Spring Md venues and logistics</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="container">
+                <h2 data-en="Ready to Book Your Silver Spring Md DJ?" data-es="¿Listo para Reservar Su DJ en Silver Spring Md?">Ready to Book Your Silver Spring Md DJ?</h2>
+                <p style="padding: 20px 0;" data-en="Get a free, personalized quote. No hidden fees, no surprises." data-es="Obtenga un presupuesto gratuito y personalizado. Sin tarifas ocultas, sin sorpresas.">Get a free, personalized quote. No hidden fees, no surprises.</p>
+                <a href="contact.html" class="btn btn-primary" data-en="Get Your Free Quote" data-es="Obtenga Su Presupuesto Gratis">Get Your Free Quote</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/Metro_Beat_Main_Logo_Dark_BG.png" alt="Metro Beat Events Logo" class="logo-image">
+                </div>
+                
+                <div class="footer-links">
+                    <h4 data-en="Quick Links" data-es="Enlaces Rápidos">Quick Links</h4>
+                    <a href="index.html" data-en="Home" data-es="Inicio">Home</a>
+                    <a href="services.html" data-en="Services" data-es="Servicios">Services</a>
+                    <a href="packages.html" data-en="Packages" data-es="Paquetes">Packages</a>
+                    <a href="contact.html" data-en="Contact" data-es="Contacto">Contact</a>
+                    <a href="privacy-policy.html" data-en="Privacy Policy" data-es="Política de Privacidad">Privacy Policy</a>
+                </div>
+                
+                <div class="footer-locations">
+                    <h4 data-en="Service Locations" data-es="Ubicaciones de Servicio">Service Locations</h4>
+                    <a href="silver-spring-md.html">Silver Spring Md, VA,</a>
+                    <a href="washington-dc.html">Washington, DC,</a>
+                    <a href="arlington-va.html">Arlington, VA,</a>
+                    <a href="alexandria-va.html">Alexandria, VA,</a>
+                    <a href="fairfax-va.html">Fairfax, VA,</a>
+                    <a href="manassas-va.html">Manassas, VA,</a>
+                    <a href="richmond-va.html">Richmond, VA,</a>
+                    <a href="silver-spring-md.html">Silver Spring, MD,</a>
+                    <a href="bethesda-md.html">Bethesda, MD,</a>
+                    <a href="rockville-md.html">Rockville, MD,</a>
+                    <a href="fredericksburg-va.html">Fredericksburg, VA</a>
+                </div>
+                
+                <div class="footer-services">
+                    <h4 data-en="Our Services" data-es="Nuestros Servicios">Our Services</h4>
+                    <a href="services.html" data-en="Wedding DJ" data-es="DJ de Bodas">Wedding DJ</a>
+                    <a href="services.html" data-en="Event Photography" data-es="Fotografía de Eventos">Event Photography</a>
+                    <a href="services.html" data-en="Uplighting" data-es="Iluminación">Uplighting</a>
+                    <a href="packages.html" data-en="View Packages" data-es="Ver Paquetes">View Packages</a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Metro Beat Events. <span data-en="All rights reserved." data-es="Todos los derechos reservados.">All rights reserved.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
