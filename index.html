@@ -26,17 +26,21 @@
     
     <title>Metro Beat Events | Wedding DJ, Photography & Lighting | Woodbridge VA</title>
     
-    <!-- Google Fonts with font-display=swap for better performance -->
+    <!-- Preload critical CSS -->
+    <link rel="preload" href="css/style-version-c.css" as="style">
+    <link rel="stylesheet" href="css/style-version-c.css">
+    
+    <!-- Preconnect to external domains -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
     
-    <!-- Font Awesome - async loading -->
+    <!-- Google Fonts with font-display=swap -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome - defer loading -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" media="print" onload="this.media='all'">
     <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css"></noscript>
-    
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/style-version-c.css">
     
     <!-- Schema.org LocalBusiness Markup -->
     <script type="application/ld+json">
@@ -124,6 +128,7 @@
         </nav>
     </header>
 
+    <main>
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-overlay"></div>
@@ -443,7 +448,7 @@
                 </div>
                 
                 <div class="weddings-image">
-                    <img src="images/first_dance.jpeg" alt="Wedding celebration and first dance" title="Wedding First Dance - Metro Beat Events" loading="lazy">
+                    <img src="images/first_dance.jpeg" alt="Wedding celebration and first dance" title="Wedding First Dance - Metro Beat Events" loading="lazy" width="600" height="400">
                 </div>
             </div>
         </div>
@@ -586,6 +591,7 @@
             </div>
         </div>
     </section>
+    </main>
 
     <!-- Footer -->
     <footer class="footer">
