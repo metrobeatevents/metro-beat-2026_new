@@ -1,141 +1,135 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Main Pages -->
+  <!-- Main Pages - Canonical URLs Only (www domain, clean URLs) -->
   <url>
-    <loc>https://metrobeatevents.com/</loc>
-    <lastmod>2026-03-18</lastmod>
+    <loc>https://www.metrobeatevents.com/</loc>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://metrobeatevents.com/index.html</loc>
-    <lastmod>2026-03-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://metrobeatevents.com/services.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <loc>https://www.metrobeatevents.com/services</loc>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://metrobeatevents.com/packages.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <loc>https://www.metrobeatevents.com/packages</loc>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://metrobeatevents.com/weddings.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <loc>https://www.metrobeatevents.com/weddings</loc>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://metrobeatevents.com/quinceanera.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <loc>https://www.metrobeatevents.com/quinceanera</loc>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://metrobeatevents.com/gallery.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <loc>https://www.metrobeatevents.com/gallery</loc>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://metrobeatevents.com/about.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <loc>https://www.metrobeatevents.com/about</loc>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://metrobeatevents.com/contact.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <loc>https://www.metrobeatevents.com/contact</loc>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://metrobeatevents.com/quote.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <loc>https://www.metrobeatevents.com/quote</loc>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://metrobeatevents.com/privacy-policy.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <loc>https://www.metrobeatevents.com/privacy-policy</loc>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   
   <!-- Virginia Location Pages -->
   <url>
-    <loc>https://metrobeatevents.com/woodbridge-va.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <loc>https://www.metrobeatevents.com/woodbridge-va</loc>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://metrobeatevents.com/alexandria-va.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <loc>https://www.metrobeatevents.com/alexandria-va</loc>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://metrobeatevents.com/arlington-va.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <loc>https://www.metrobeatevents.com/arlington-va</loc>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://metrobeatevents.com/fairfax-va.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <loc>https://www.metrobeatevents.com/fairfax-va</loc>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://metrobeatevents.com/fredericksburg-va.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <loc>https://www.metrobeatevents.com/fredericksburg-va</loc>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://metrobeatevents.com/manassas-va.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <loc>https://www.metrobeatevents.com/manassas-va</loc>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://metrobeatevents.com/richmond-va.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <loc>https://www.metrobeatevents.com/richmond-va</loc>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <!-- Maryland Location Pages -->
   <url>
-    <loc>https://metrobeatevents.com/bethesda-md.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <loc>https://www.metrobeatevents.com/bethesda-md</loc>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://metrobeatevents.com/rockville-md.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <loc>https://www.metrobeatevents.com/rockville-md</loc>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://metrobeatevents.com/silver-spring-md.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <loc>https://www.metrobeatevents.com/silver-spring-md</loc>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <!-- DC Location Page -->
   <url>
-    <loc>https://metrobeatevents.com/washington-dc.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <loc>https://www.metrobeatevents.com/washington-dc</loc>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

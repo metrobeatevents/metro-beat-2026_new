@@ -3,7 +3,264 @@
   publish = "."
   command = "echo 'Static site'"
 
+# Force HTTPS and WWW (301 permanent redirects)
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
+  from = "http://metrobeatevents.com/*"
+  to = "https://www.metrobeatevents.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.metrobeatevents.com/*"
+  to = "https://www.metrobeatevents.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://metrobeatevents.com/*"
+  to = "https://www.metrobeatevents.com/:splat"
+  status = 301
+  force = true
+
+# Redirect .html to clean URLs (301 permanent redirects)
+[[redirects]]
+  from = "/index.html"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/services.html"
+  to = "/services"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/packages.html"
+  to = "/packages"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/weddings.html"
+  to = "/weddings"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/quinceanera.html"
+  to = "/quinceanera"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/gallery.html"
+  to = "/gallery"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/about.html"
+  to = "/about"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/contact.html"
+  to = "/contact"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/quote.html"
+  to = "/quote"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/privacy-policy.html"
+  to = "/privacy-policy"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/thank-you.html"
+  to = "/thank-you"
+  status = 301
+  force = true
+
+# Location pages - Virginia
+[[redirects]]
+  from = "/woodbridge-va.html"
+  to = "/woodbridge-va"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/alexandria-va.html"
+  to = "/alexandria-va"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/arlington-va.html"
+  to = "/arlington-va"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fairfax-va.html"
+  to = "/fairfax-va"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fredericksburg-va.html"
+  to = "/fredericksburg-va"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/manassas-va.html"
+  to = "/manassas-va"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/richmond-va.html"
+  to = "/richmond-va"
+  status = 301
+  force = true
+
+# Location pages - Maryland
+[[redirects]]
+  from = "/bethesda-md.html"
+  to = "/bethesda-md"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/rockville-md.html"
+  to = "/rockville-md"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/silver-spring-md.html"
+  to = "/silver-spring-md"
+  status = 301
+  force = true
+
+# Location pages - DC
+[[redirects]]
+  from = "/washington-dc.html"
+  to = "/washington-dc"
+  status = 301
+  force = true
+
+# Clean URL rewrites (200 status - serve .html files for clean URLs)
+[[redirects]]
+  from = "/services"
+  to = "/services.html"
+  status = 200
+
+[[redirects]]
+  from = "/packages"
+  to = "/packages.html"
+  status = 200
+
+[[redirects]]
+  from = "/weddings"
+  to = "/weddings.html"
+  status = 200
+
+[[redirects]]
+  from = "/quinceanera"
+  to = "/quinceanera.html"
+  status = 200
+
+[[redirects]]
+  from = "/gallery"
+  to = "/gallery.html"
+  status = 200
+
+[[redirects]]
+  from = "/about"
+  to = "/about.html"
+  status = 200
+
+[[redirects]]
+  from = "/contact"
+  to = "/contact.html"
+  status = 200
+
+[[redirects]]
+  from = "/quote"
+  to = "/quote.html"
+  status = 200
+
+[[redirects]]
+  from = "/privacy-policy"
+  to = "/privacy-policy.html"
+  status = 200
+
+[[redirects]]
+  from = "/thank-you"
+  to = "/thank-you.html"
+  status = 200
+
+# Location pages rewrites
+[[redirects]]
+  from = "/woodbridge-va"
+  to = "/woodbridge-va.html"
+  status = 200
+
+[[redirects]]
+  from = "/alexandria-va"
+  to = "/alexandria-va.html"
+  status = 200
+
+[[redirects]]
+  from = "/arlington-va"
+  to = "/arlington-va.html"
+  status = 200
+
+[[redirects]]
+  from = "/fairfax-va"
+  to = "/fairfax-va.html"
+  status = 200
+
+[[redirects]]
+  from = "/fredericksburg-va"
+  to = "/fredericksburg-va.html"
+  status = 200
+
+[[redirects]]
+  from = "/manassas-va"
+  to = "/manassas-va.html"
+  status = 200
+
+[[redirects]]
+  from = "/richmond-va"
+  to = "/richmond-va.html"
+  status = 200
+
+[[redirects]]
+  from = "/bethesda-md"
+  to = "/bethesda-md.html"
+  status = 200
+
+[[redirects]]
+  from = "/rockville-md"
+  to = "/rockville-md.html"
+  status = 200
+
+[[redirects]]
+  from = "/silver-spring-md"
+  to = "/silver-spring-md.html"
+  status = 200
+
+[[redirects]]
+  from = "/washington-dc"
+  to = "/washington-dc.html"
   status = 200
