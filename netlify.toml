@@ -3,7 +3,10 @@
   publish = "."
   command = "echo 'Static site'"
 
-# Block /public/* URLs - redirect to canonical equivalents (301 permanent redirects)
+# Block /public/* URLs - redirect to canonical clean URLs (301 permanent redirects)
+# Note: This catches /public/services.html and redirects to /services.html
+# The .html redirect rules below will then redirect to clean URLs
+# This is intentional to maintain consistent redirect logic
 [[redirects]]
   from = "/public/*"
   to = "/:splat"
