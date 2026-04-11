@@ -145,19 +145,16 @@
   from = "http://metrobeatevents.com/*"
   to = "https://www.metrobeatevents.com/:splat"
   status = 301
-  force = true
 
 [[redirects]]
   from = "http://www.metrobeatevents.com/*"
   to = "https://www.metrobeatevents.com/:splat"
   status = 301
-  force = true
 
 [[redirects]]
   from = "https://metrobeatevents.com/*"
   to = "https://www.metrobeatevents.com/:splat"
   status = 301
-  force = true
 
 # Redirect .html to clean URLs (301 permanent redirects)
 [[redirects]]
