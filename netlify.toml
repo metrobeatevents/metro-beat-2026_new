@@ -18,127 +18,106 @@
   from = "/services/"
   to = "/services"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/packages/"
   to = "/packages"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/weddings/"
   to = "/weddings"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/quinceanera/"
   to = "/quinceanera"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/gallery/"
   to = "/gallery"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/about/"
   to = "/about"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/contact/"
   to = "/contact"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/quote/"
   to = "/quote"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/privacy-policy/"
   to = "/privacy-policy"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/thank-you/"
   to = "/thank-you"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/woodbridge-va/"
   to = "/woodbridge-va"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/alexandria-va/"
   to = "/alexandria-va"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/arlington-va/"
   to = "/arlington-va"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/fairfax-va/"
   to = "/fairfax-va"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/fredericksburg-va/"
   to = "/fredericksburg-va"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/manassas-va/"
   to = "/manassas-va"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/richmond-va/"
   to = "/richmond-va"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/bethesda-md/"
   to = "/bethesda-md"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/rockville-md/"
   to = "/rockville-md"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/silver-spring-md/"
   to = "/silver-spring-md"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/washington-dc/"
   to = "/washington-dc"
   status = 301
-  force = true
 
 # Force HTTPS and WWW (301 permanent redirects)
 [[redirects]]
