@@ -3,6 +3,14 @@
   publish = "."
   command = "echo 'Static site'"
 
+# Netlify Forms Configuration
+[[plugins]]
+  package = "@netlify/plugin-emails"
+
+[plugins.inputs]
+  # Send confirmation email to form submitter
+  autoresponder = true
+
 # Block /public/* URLs - redirect to canonical clean URLs (301 permanent redirects)
 # Note: This catches /public/services.html and redirects to /services.html
 # The .html redirect rules below will then redirect to clean URLs
