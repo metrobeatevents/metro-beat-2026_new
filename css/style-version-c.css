@@ -2258,6 +2258,17 @@ body {
         align-items: flex-start !important;
     }
     
+    /* Make all checkboxes the same size */
+    .quote-form fieldset input[type="checkbox"] {
+        width: 20px !important;
+        height: 20px !important;
+        min-width: 20px !important;
+        min-height: 20px !important;
+        margin-right: 12px !important;
+        margin-top: 2px !important;
+        flex-shrink: 0 !important;
+    }
+    
     .cta-section {
         padding: 60px 0;
     }
