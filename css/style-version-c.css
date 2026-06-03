@@ -2233,6 +2233,23 @@ body {
 
 /* Mobile Responsive - Breakpoint 768px */
 @media (max-width: 768px) {
+    /* Fix blurry background images on mobile */
+    .quote-hero {
+        background-attachment: scroll !important;
+    }
+    
+    /* Make gobo option text larger and more readable on mobile */
+    .gobo-option {
+        font-size: 16px !important;
+        line-height: 1.6 !important;
+        padding: 12px 0 !important;
+    }
+    
+    .gobo-option span {
+        font-size: 16px !important;
+        font-weight: 500 !important;
+    }
+    
     .cta-section {
         padding: 60px 0;
     }
