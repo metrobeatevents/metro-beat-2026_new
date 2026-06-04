@@ -2258,15 +2258,22 @@ body {
         align-items: flex-start !important;
     }
     
-    /* Make all checkboxes the same size */
-    .quote-form fieldset input[type="checkbox"] {
+    /* Make all checkboxes the same size - force uniform appearance */
+    .quote-form fieldset input[type="checkbox"],
+    .quote-form input[type="checkbox"],
+    input[type="checkbox"] {
         width: 24px !important;
         height: 24px !important;
         min-width: 24px !important;
         min-height: 24px !important;
+        max-width: 24px !important;
+        max-height: 24px !important;
         margin-right: 14px !important;
         margin-top: 0px !important;
+        margin-bottom: 0px !important;
         flex-shrink: 0 !important;
+        -webkit-appearance: checkbox !important;
+        appearance: checkbox !important;
     }
     
     .cta-section {
