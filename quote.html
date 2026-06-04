@@ -370,5 +370,46 @@
     </footer>
 
     <script src="js/main.js" defer></script>
+    
+    <!-- EmailJS Integration -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        // Initialize EmailJS
+        (function() {
+            emailjs.init("zvkqrsXVxaz9jeVvHkDKF");
+        })();
+        
+        // Handle quote form submission
+        document.addEventListener('DOMContentLoaded', function() {
+            const quoteForm = document.getElementById('quoteForm');
+            
+            if (quoteForm) {
+                quoteForm.addEventListener('submit', function(event) {
+                    event.preventDefault();
+                    
+                    // Show loading state
+                    const submitButton = quoteForm.querySelector('button[type="submit"]');
+                    const originalText = submitButton.textContent;
+                    submitButton.disabled = true;
+                    submitButton.textContent = currentLanguage === 'en' ? 'Sending...' : 'Enviando...';
+                    
+                    // Send email via EmailJS
+                    emailjs.sendForm('service_rwptvpw', 'template_9fkh5ko', this)
+                        .then(function(response) {
+                            console.log('SUCCESS!', response.status, response.text);
+                            // Redirect to thank you page
+                            window.location.href = '/thank-you.html';
+                        }, function(error) {
+                            console.log('FAILED...', error);
+                            alert(currentLanguage === 'en' 
+                                ? 'Failed to send. Please try again or contact us directly.' 
+                                : 'Error al enviar. Por favor, inténtelo de nuevo o contáctenos directamente.');
+                            submitButton.disabled = false;
+                            submitButton.textContent = originalText;
+                        });
+                });
+            }
+        });
+    </script>
 </body>
 </html>
