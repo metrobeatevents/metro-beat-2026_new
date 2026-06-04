@@ -117,9 +117,8 @@
                     </div>
                 </div>
                 
-                <form class="contact-form" id="contactForm" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you.html">
+                <form class="contact-form" id="contactForm" name="contact">
                     <input type="hidden" name="form-name" value="contact">
-                    <input type="hidden" name="bot-field">
                     <div class="form-group">
                         <input type="text" id="name" name="name" required placeholder="Your Name *">
                         <label for="name" data-en="Your Name *" data-es="Su Nombre *">Your Name *</label>
@@ -195,5 +194,48 @@
     </footer>
 
     <script src="js/main.js" defer></script>
+    
+    <!-- EmailJS Integration for Contact Form -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        // Initialize EmailJS
+        (function() {
+            emailjs.init("xmZX7sc3cBVCzMsQt");
+        })();
+        
+        // Override the contact form handler from main.js
+        document.addEventListener('DOMContentLoaded', function() {
+            const contactForm = document.getElementById('contactForm');
+            
+            if (contactForm) {
+                // Remove any existing listeners
+                const newForm = contactForm.cloneNode(true);
+                contactForm.parentNode.replaceChild(newForm, contactForm);
+                
+                newForm.addEventListener('submit', function(event) {
+                    event.preventDefault();
+                    
+                    const submitButton = newForm.querySelector('button[type="submit"]');
+                    const originalText = submitButton.textContent;
+                    submitButton.disabled = true;
+                    submitButton.textContent = currentLanguage === 'en' ? 'Sending...' : 'Enviando...';
+                    
+                    // Send via EmailJS
+                    emailjs.sendForm('service_rwptvpw', 'template_h9y5lzi', this)
+                        .then(function(response) {
+                            console.log('Contact form sent successfully!', response);
+                            window.location.href = '/thank-you';
+                        }, function(error) {
+                            console.error('Contact form failed:', error);
+                            alert(currentLanguage === 'en' 
+                                ? 'Failed to send message. Please try again.' 
+                                : 'Error al enviar mensaje. Por favor, inténtelo de nuevo.');
+                            submitButton.disabled = false;
+                            submitButton.textContent = originalText;
+                        });
+                });
+            }
+        });
+    </script>
 </body>
 </html>
