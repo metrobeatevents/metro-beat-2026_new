@@ -2247,13 +2247,13 @@ body {
     /* Make ALL add-on checkbox labels consistent size on mobile */
     .quote-form fieldset label,
     .quote-form fieldset label span {
-        font-size: 16px !important;
-        line-height: 1.6 !important;
-        font-weight: 500 !important;
+        font-size: 18px !important;
+        line-height: 1.7 !important;
+        font-weight: 600 !important;
     }
     
     .quote-form fieldset label {
-        padding: 12px 0 !important;
+        padding: 14px 0 !important;
         display: flex !important;
         align-items: flex-start !important;
     }
