@@ -395,14 +395,26 @@
                     // Send email via EmailJS
                     emailjs.sendForm('service_rwptvpw', 'template_9fkh5ko', this)
                         .then(function(response) {
-                            console.log('SUCCESS!', response.status, response.text);
+                            console.log('EmailJS SUCCESS!', response.status, response.text);
                             // Redirect to thank you page
-                            window.location.href = '/thank-you.html';
+                            window.location.href = '/thank-you';
                         }, function(error) {
-                            console.log('FAILED...', error);
-                            alert(currentLanguage === 'en' 
-                                ? 'Failed to send. Please try again or contact us directly.' 
-                                : 'Error al enviar. Por favor, inténtelo de nuevo o contáctenos directamente.');
+                            console.error('EmailJS FAILED:', error);
+                            
+                            // Show detailed error message
+                            let errorMsg = currentLanguage === 'en' 
+                                ? 'Failed to send quote request. ' 
+                                : 'Error al enviar solicitud de presupuesto. ';
+                            
+                            if (error.text) {
+                                errorMsg += '\nError: ' + error.text;
+                            }
+                            
+                            errorMsg += currentLanguage === 'en'
+                                ? '\n\nPlease try again or contact us at (703) XXX-XXXX'
+                                : '\n\nPor favor, inténtelo de nuevo o contáctenos al (703) XXX-XXXX';
+                            
+                            alert(errorMsg);
                             submitButton.disabled = false;
                             submitButton.textContent = originalText;
                         });
